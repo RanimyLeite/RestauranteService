@@ -1,8 +1,9 @@
 using RestauranteService.Dtos;
 
-namespace RestauranteService.Http;
-
-public interface IItemHttpClient
+namespace RestauranteService.Http
 {
-    Task EnviaRestauranteParaItem(RestauranteReadDto readDto);
+    public interface IItemHttpClient
+    {
+        Task EnviaRestauranteParaItem(RestauranteReadDto readDto);
+    }
 }
